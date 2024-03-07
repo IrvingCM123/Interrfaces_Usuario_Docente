@@ -1,0 +1,97 @@
+body {
+  background-image: linear-gradient(-225deg, #e6e6e6 0%, #ffe6fa 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  font-family: "Vibur", cursive;
+  font-family: "Abel", sans-serif;
+  opacity: 0.95;
+  min-height: max-content;
+  height: 100vh;
+  width: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.imagen {
+  opacity: 0.5;
+}
+
+#Contenedor {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24% 76%;
+  grid-template-rows: 8% 80%;
+  width: fit-content;
+  height: fit-content;
+  overflow-y: auto;
+  width: 100%;
+  height: 97vh;
+  max-height: 100.0vh;
+  overflow: hidden;
+}
+
+#Contenedor::-webkit-scrollbar {
+  width: 1px;
+  background: transparent;
+}
+
+#ContenedorLogin {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+
+  overflow-y: auto;
+  background-image: linear-gradient(
+    to top,
+    rgb(214, 234, 233) 0%,
+    #072894 100%
+  );
+}
+
+#Navegacion {
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#Informacion_Docente {
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 7;
+
+  width: 100%;
+  height: 100%;
+  background-color: #2B3651;
+}
+
+#Pantalla_Informacion {
+  position: relative;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 7;
+
+  width: 100%;
+  height: 98%;
+  padding: 0px;
+
+  overflow-y: auto;
+  background-color: #EFF7F7;
+}
+
+#Pantalla_Informacion::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+
+}
+
+#Registro {
+  min-width: 100%;
+  min-height: 100%;
+}

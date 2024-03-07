@@ -1,0 +1,20 @@
+<nav class="navegador">
+  <section class="nombre_logo">
+    <img
+      src="assets/escudo1.png"
+      alt="Logo"
+      class="logo"
+      style="width: 13%; padding-right: 5%"
+    />
+    <h1 class="nombre">Universidad Veracruzana</h1>
+  </section>
+
+  <section class="rutas_navegacion">
+    <a [routerLink]="['/inicio']" routerLinkActive="active"  [ngClass]="{'underline': isInicioRouteActive()}"> Inicio </a>
+    <a [routerLink]="['/registro']" routerLinkActive="active"> Lista Actual </a>
+    <p style="font-size: 190%; margin: 0; padding: 0px; color: #fff">|</p>
+    <a [routerLink]="['/registro']" routerLinkActive="active">
+      Cerrar Sesión
+    </a>
+  </section>
+</nav>
