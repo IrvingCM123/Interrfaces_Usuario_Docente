@@ -296,3 +296,33 @@
   animation: tipo-AFT 3s linear infinite;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .contenedor {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-height: 100vh;
+    padding: 2% 0% 0 60%;
+    background-color: #EFF7F7;
+    overflow-y: scroll;
+  }
+
+  .materias-tarjetas {
+    display: flex;
+    padding: 1% 0%;
+    margin-top: 5%;
+    max-height: max-content;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos para tamaños de pantalla medianos (por ejemplo, tabletas) */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Estilos para pantallas más grandes (por ejemplo, escritorios) */
+}
