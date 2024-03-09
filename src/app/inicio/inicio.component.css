@@ -1,19 +1,44 @@
 .contenedor {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
   flex-direction: column;
   height: 100%;
   width: 100%;
+  max-height: 100vh;
   padding: 2% 6%;
   background-color: #EFF7F7;
+  overflow-y: scroll;
 }
 
 .materias-tarjetas {
   display: flex;
-  overflow-y: auto;
   padding: 1% 0%;
-  max-height: 72vh;
+  margin-top: 5%;
+  max-height: max-content;
+}
+
+/*
+.botones {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 30% 0 3%;
+  gap: 5%;
+  margin: 5% 0% 2% 0;
+  z-index: 1000;
+  background-color: #EFF7F7;
+}
+*/
+
+.botones {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 6% 0 6%;
+  gap: 5%;
+  margin: 5% 0% 2% 0;
+  position: fixed;
+  z-index: 1000;
+  width: 70%;
+  background-color: #EFF7F7;
 }
 
 .titulo{
@@ -34,7 +59,7 @@
   border-radius: 25px;
   width: 100%;
   height: 90%;
-  min-width: 410px;
+  min-width: 423px;
 }
 
 .rotar_vertical {
@@ -156,15 +181,6 @@
   color: #232323;
 }
 
-.botones {
-  display: flex;
-  justify-content: flex-start;
-  padding: 0 30% 0 3%;
-  gap: 5%;
-  margin: 3% 0 5% 0;
-}
-
-
 .opcion {
   display: flex;
   flex-direction: row;
@@ -204,11 +220,79 @@
   }
 
   100% {
-    background-color: var(--yellow-500);
+    background-color: var(--red-500);
     color: var(--gray-900);
   }
 }
 
 .animation-color {
   animation: animation-color 3s linear;
+}
+
+@keyframes tipo-AFBG {
+  0% {
+    background-color: rgba(235, 189, 61, 0.3);
+    color: #000;
+  }
+
+  100% {
+    background-color: #EBBD3D;
+    color: #000;
+  }
+}
+
+.tipo-AFBG {
+  animation: tipo-AFBG 3s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes tipo-AFEL {
+  0% {
+    background-color: rgba(211, 101, 27, 0.3);
+    color: #000;
+  }
+
+  100% {
+    background-color: #D3651B;
+    color: #000;
+  }
+}
+
+.tipo-AFEL {
+  animation: tipo-AFEL 3s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes tipo-AFD {
+  0% {
+    background-color: rgba(28, 144, 80, 0.3);
+    color: #000;
+  }
+
+  100% {
+    background-color: #1C9050;
+    color: #000;
+  }
+}
+
+.tipo-AFD {
+  animation: tipo-AFD 3s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes tipo-AFT {
+  0% {
+    background-color: rgb(65, 115, 195, 0.3);
+    color: #000;
+  }
+
+  100% {
+    background-color: #4173C3;
+    color: #000;
+  }
+}
+
+.tipo-AFT {
+  animation: tipo-AFT 3s linear infinite;
+  cursor: pointer;
 }

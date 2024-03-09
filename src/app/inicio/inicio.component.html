@@ -64,21 +64,23 @@
                   </section>
 
                   <section class="lista_asistencia">
-                    <button class="boton_lista">Lista de asistencia</button>
                     <!--
-                    <button
-                      class="flex flex-wrap align-items-center justify-content-cente animate-width animation-duration-3000 animation-iteration-infinite flex align-items-center justify-content-center font-bold bg-primary border-round m-2 px-9 py-1 boton_lista"
-                    >
+                    <button class="boton_lista">Lista de asistencia</button>
 
+
+                    <button
+                      class="flex flex-wrap align-items-center justify-content-cente animate-width animation-duration-3000
+                      animation-iteration-infinite flex align-items-center justify-content-center font-bold bg-primary border-round m-2 px-9 py-1 boton_lista"
+                    >
                       Lista de asistencia
                     </button>
-                    !-->
-
+                    -->
                     <div
-                      class="animation-color animation-fill-forwards flex
+                      class="animation-fill-forwards flex
                       align-items-center justify-content-center
-                      font-bold border-round m-2 px-5 py-3">
-                      Tarjeta de animación
+                      font-bold border-round m-2 px-7 py-1"
+                      [ngClass]="'tipo-' + tarjeta.tipo">
+                      Lista de asistencia
                     </div>
                   </section>
                 </div>

@@ -180,8 +180,10 @@ export class InicioComponent implements OnInit {
           materia.color = '#D3651B';
       }
 
-      
-      return { ...materia, tipo: tipoDescompuesto };
+      console.log(materia.tipo);
+
+
+      return { ...materia, tipo1: tipoDescompuesto };
     });
   }
 
