@@ -10,6 +10,8 @@ export class InicioComponent implements OnInit {
   }
 
   materias: any = [ ];
+  mostrar_alerta_alta = false;
+  mostrar_alerta_baja = false;
 
   ngOnInit(): void {
     this.materias = [
@@ -187,12 +189,20 @@ export class InicioComponent implements OnInit {
     });
   }
 
-  hola() {
-    console.log('hola');
+  correo_alta() {
+    this.mostrar_alerta_alta = true;
   }
 
-  adios() {
-    console.log('adios');
+  correo_baja() {
+    this.mostrar_alerta_baja = true;
+  }
+
+  cerrar_alerta_alta() {
+    this.mostrar_alerta_alta = false;
+  }
+
+  cerrar_alerta_baja() {
+    this.mostrar_alerta_baja = false;
   }
 
 }

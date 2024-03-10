@@ -3,6 +3,21 @@
 
 <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css" />
 
+<div *ngIf="mostrar_alerta_alta" class="mensaje" >
+  <section class="botocerrar">
+    <button (click)="cerrar_alerta_alta()">  X  </button>
+  </section>
+
+  <app-correo>  </app-correo>
+</div>
+
+<div *ngIf="mostrar_alerta_baja" class="mensaje" >
+  <section class="botocerrar">
+    <button (click)="cerrar_alerta_baja()">  X  </button>
+  </section>
+
+  <app-correo-baja>  </app-correo-baja>
+</div>
 
 <main class="contenedor">
   <header class="titulo">
@@ -10,12 +25,12 @@
   </header>
 
   <section class="botones">
-    <section class="opcion" (click)="hola()">
+    <section class="opcion" (click)="correo_alta()">
       <img src="assets/suma.png" alt="" />
       <span> Solicitar Alta de E.E</span>
     </section>
 
-    <section class="opcion" (click)="adios()">
+    <section class="opcion" (click)="correo_baja()">
       <img src="assets/resta.png" alt="" />
       <span> Solicitar Baja de E.E</span>
     </section>

@@ -20,7 +20,7 @@ body {
 #Contenedor {
   position: relative;
   display: grid;
-  grid-template-columns: 24% 76%;
+  grid-template-columns: 22% 76%;
   grid-template-rows: 8% 80%;
   width: fit-content;
   height: fit-content;
