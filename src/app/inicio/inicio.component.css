@@ -213,15 +213,15 @@
 }
 
 .mensaje{
-    width: 45vw;
-    height: 38vh;
+    width: 34em;
+    height: 15em;
     display: flex;
     margin: 14vh 0 0 20vh;
     background-color: transparent;
     z-index: 100;
     position: fixed;
     flex-direction: column;
-
+    column-gap: 10px;
     background-color: #EFF7F7;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000000;
@@ -232,6 +232,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  height: 3%;
 }
 
 .botocerrar button {
@@ -242,8 +243,13 @@
   font-size: 100%;
   font-weight: 800;
   border-top-right-radius: 10px;
-  color: #c00505;
+  color: #ffffff;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.4%;
+  z-index: 100;
+  padding-right: 3%;
 }
 
 
@@ -332,24 +338,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .contenedor {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    max-height: 100vh;
-    padding: 2% 0% 0 60%;
-    background-color: #EFF7F7;
-    overflow-y: scroll;
-  }
 
-  .materias-tarjetas {
-    display: flex;
-    padding: 1% 0%;
-    margin-top: 5%;
-    max-height: max-content;
-  }
 
 }
 

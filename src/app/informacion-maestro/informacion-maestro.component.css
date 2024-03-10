@@ -17,9 +17,15 @@
   margin: 0;
 }
 
+.tarjeta img {
+  margin-bottom: 7%;
+  width: 60%;
+  padding-left: 10%;
+}
+
 .tarjeta h3 {
   margin: 0;
-  padding: 19% 0 0 0;
+  padding: 9% 0 0 0;
   font-size: 120%;
   color: #fff;
   word-wrap: break-word;
