@@ -63,21 +63,19 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-  min-height: 37vh;
+  min-height: 14.6em;
   padding: 2% 0% 0 5%;
   border-bottom-right-radius: 10px;
 
 }
-
 .informacion h3 {
   font-family: sans-serif;
   font-weight: 600;
-  font-size: 110%;
-  margin: 7% 0 7% 4%;
+  font-size: 1.2rem;
+  margin: 1rem 0 1rem 0.5rem;
   padding: 0;
   color: white;
 }
-
 .informacion p{
   font-family: sans-serif;
   font-weight: 500;
