@@ -1,6 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, orientation=landscape">
 
-<Main id="Contenedor">
+<Main id="Contenedor"  *ngIf="loggedIn"  >
   <Article id="Navegacion">
     <app-header></app-header>
   </Article>
@@ -11,3 +11,14 @@
     <router-outlet></router-outlet>
   </article>
 </Main>
+
+
+<div *ngIf="!loggedIn" id="ContenedorLogin">
+  <section id="Registro" *ngIf="formulario === 'registro' || formulario == '' ">
+    <app-registro (iniciarSesion)="mostrarIniciarSesion()"></app-registro>
+  </section>
+
+  <section id="Login" *ngIf="formulario === 'login'">
+    <app-login (registrarse)="mostrarRegistro()"></app-login>
+  </section>
+</div>

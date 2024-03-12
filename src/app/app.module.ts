@@ -9,6 +9,8 @@ import { InformacionMaestroComponent } from './informacion-maestro/informacion-m
 import { NgPipesModule } from 'ngx-pipes';
 import { CorreoComponent } from './correo/correo.component';
 import { CorreoBajaComponent } from './correo-baja/correo-baja.component';
+import { RegistroComponent } from './registro/registro.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { CorreoBajaComponent } from './correo-baja/correo-baja.component';
     InformacionMaestroComponent,
     CorreoComponent,
     CorreoBajaComponent,
+    RegistroComponent,
+    LoginComponent,
   ],
   imports: [
     NgPipesModule,

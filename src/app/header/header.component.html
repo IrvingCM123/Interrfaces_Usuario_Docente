@@ -11,9 +11,9 @@
 
   <section class="rutas_navegacion">
     <a [routerLink]="['/inicio']" routerLinkActive="active"  [ngClass]="{'underline': isInicioRouteActive()}"> Inicio </a>
-    <a [routerLink]="['/registro']" routerLinkActive="active"> Lista Actual </a>
+    <a [routerLink]="['#']" routerLinkActive="active"> Lista Actual </a>
     <p style="font-size: 190%; margin: 0; padding: 0px; color: #fff">|</p>
-    <a [routerLink]="['/registro']" routerLinkActive="active">
+    <a (click)="CerrarSesion()" style="cursor: pointer;">
       Cerrar Sesión
     </a>
   </section>
