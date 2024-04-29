@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',
   styleUrls: ['./inicio.component.css'],
 })
 export class InicioComponent implements OnInit {
-  constructor() {
+  constructor(
+    private router: Router
+  ) {
   }
 
   materias: any = [ ];
@@ -203,6 +205,10 @@ export class InicioComponent implements OnInit {
 
   cerrar_alerta_baja() {
     this.mostrar_alerta_baja = false;
+  }
+
+  lista_asistencia() {
+    this.router.navigate(['/lista-asistencia']);
   }
 
 }

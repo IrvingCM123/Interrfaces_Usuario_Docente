@@ -94,7 +94,9 @@
                       class="animation-fill-forwards flex
                       align-items-center justify-content-center
                       font-bold border-round m-2 px-7 py-1"
-                      [ngClass]="'tipo-' + tarjeta.tipo">
+                      [ngClass]="'tipo-' + tarjeta.tipo"
+                      (click)="lista_asistencia()"
+                      >
                       Lista de asistencia
                     </div>
                   </section>

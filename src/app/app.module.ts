@@ -11,6 +11,8 @@ import { CorreoComponent } from './correo/correo.component';
 import { CorreoBajaComponent } from './correo-baja/correo-baja.component';
 import { RegistroComponent } from './registro/registro.component';
 import { LoginComponent } from './login/login.component';
+import { ListaAsistenciaComponent } from './lista-asistencia/lista-asistencia.component';
+import { ListaActualComponent } from './lista-actual/lista-actual.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { LoginComponent } from './login/login.component';
     CorreoBajaComponent,
     RegistroComponent,
     LoginComponent,
+    ListaAsistenciaComponent,
+    ListaActualComponent,
   ],
   imports: [
     NgPipesModule,

@@ -22,6 +22,10 @@ export class HeaderComponent implements OnInit {
     return this.router.url === '/inicio';
   }
 
+  isListaRouteActive() {
+    return this.router.url === '/lista-actual';
+  }
+
   CerrarSesion() {
     this.datos_Locales.Actualizar_Login(false);
     this.datos_Locales.eliminarCacheNavegador();
