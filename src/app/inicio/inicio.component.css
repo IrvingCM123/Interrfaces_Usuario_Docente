@@ -6,7 +6,7 @@
   width: 100%;
   max-height: 100vh;
   padding: 2% 6%;
-  background-color: #EFF7F7;
+  background-color: #eff7f7;
   overflow-y: scroll;
 }
 
@@ -17,16 +17,14 @@
   max-height: max-content;
 }
 
-
 .botones {
   display: flex;
   justify-content: flex-start;
   padding: 0 30% 0 3%;
   gap: 5%;
   margin: 5% 0% 2% 0;
-  background-color: #EFF7F7;
+  background-color: #eff7f7;
 }
-
 
 /*
 .botones {
@@ -42,9 +40,9 @@
 }
 */
 
-.titulo{
+.titulo {
   font-size: 2.5em;
-  color: #12307A;
+  color: #12307a;
   justify-content: end;
 }
 
@@ -69,7 +67,7 @@
   display: inline-block;
 
   font-size: 200%;
-  background-color: #12307A;
+  background-color: #12307a;
   width: 10%;
   height: 99%;
   padding: 0% 55%;
@@ -78,7 +76,7 @@
   border-bottom-left-radius: 25px;
 }
 
-.rotar_vertical p{
+.rotar_vertical p {
   transform: rotate(90deg);
   transform-origin: center;
   color: white;
@@ -91,7 +89,6 @@
   padding: 0;
   font-stretch: ultra-expanded;
 }
-
 
 .rotar_vertical p:nth-child(1) {
   margin-top: -5px;
@@ -113,7 +110,7 @@
   font-family: sans-serif;
   font-weight: 700;
   font-size: 110%;
-  color: #12307A;
+  color: #12307a;
   margin: 0;
   padding: 0;
 }
@@ -152,7 +149,7 @@
   font-size: 100%;
   margin: 0;
   padding: 0;
-  color: #12307A;
+  color: #12307a;
 }
 
 .lista_asistencia {
@@ -163,7 +160,7 @@
   margin: 3% 2%;
 }
 
-.boton_lista{
+.boton_lista {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,7 +171,7 @@
   border-radius: 20px;
   border-color: transparent;
   height: 30px;
-  background-color: #CAE4E5;
+  background-color: #cae4e5;
 
   font-family: sans-serif;
   font-weight: 550;
@@ -213,19 +210,19 @@
   padding: 0;
 }
 
-.mensaje{
-    width: 34em;
-    height: 15em;
-    display: flex;
-    margin: 14vh 0 0 20vh;
-    background-color: transparent;
-    z-index: 100;
-    position: fixed;
-    flex-direction: column;
-    column-gap: 10px;
-    background-color: #EFF7F7;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #000000;
+.mensaje {
+  width: 34em;
+  height: 15em;
+  display: flex;
+  margin: 14vh 0 0 20vh;
+  background-color: transparent;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  column-gap: 10px;
+  background-color: #eff7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000000;
 }
 
 .mensaje section {
@@ -237,7 +234,7 @@
 }
 
 .botocerrar button {
-  background-color: #2B3651;
+  background-color: #2b3651;
   width: 45%;
   border-color: transparent;
   text-align: end;
@@ -252,7 +249,6 @@
   z-index: 100;
   padding-right: 3%;
 }
-
 
 @keyframes animation-color {
   0% {
@@ -277,7 +273,7 @@
   }
 
   100% {
-    background-color: #EBBD3D;
+    background-color: #ebbd3d;
     color: #000;
   }
 }
@@ -294,7 +290,7 @@
   }
 
   100% {
-    background-color: #D3651B;
+    background-color: #d3651b;
     color: #000;
   }
 }
@@ -311,7 +307,7 @@
   }
 
   100% {
-    background-color: #1C9050;
+    background-color: #1c9050;
     color: #000;
   }
 }
@@ -328,9 +324,13 @@
   }
 
   100% {
-    background-color: #4173C3;
+    background-color: #4173c3;
     color: #000;
   }
+}
+
+.TituloTarjeta {
+  width: 127%
 }
 
 .tipo-AFT {
@@ -338,12 +338,180 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 699px) and (min-width: 400px) {
+@media only screen and (max-width: 599px) and (min-width: 300px) {
+  .titulo {
+    font-size: 1.2em;
+    color: #12307a;
+    justify-content: end;
+  }
+
+  .titulo h2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10% 0 3%;
+    gap: 5%;
+    margin: 5% 0% 2% 0;
+    background-color: #eff7f7;
+  }
+
+  .opcion {
+    width: 95%;
+    height: 150%;
+  }
+
+  .opcion img {
+    width: 9%;
+  }
+
+  .opcion span {
+    font-size: 60%;
+  }
+
+  .materias-tarjetas {
+    display: flex;
+    padding: 1% 0%;
+    margin-top: 5%;
+    max-height: max-content;
+  }
+
+  .tarjeta {
+    border-radius: 25px;
+    width: 40%;
+    height: 87%;
+    min-width: 270px;
+  }
+
+  .tarjeta_titulo {
+    font-size: 80%;
+    margin: 0;
+  }
+
+  .tarjeta_contenido section h3 {
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tarjeta_contenido section p {
+    font-size: 60%;
+  }
+
+  .TituloTarjeta {
+    margin-top: -38%;
+    margin-left: -2%;
+    height: fit-content;
+    padding: 0;
+  }
+
+  .rotar_vertical {
+    font-size: 150%;
+    width: 10%;
+    height: 99%;
+    padding: 0% 55%;
+  }
+
+  .rotar_vertical p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tarjeta_titulo {
+    margin-left: 18%;
+  }
+
+  .boton_lista {
+    width: 60%;
+    height: 20px;
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tarjeta_contenido section {
+    gap: 0%;
+    padding-top: 3%;
+  }
+
+  .tarjeta_contenido section h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+    color: #232323;
+  }
+
+  .tarjeta_contenido section p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+    color: #12307a;
+  }
 
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .titulo {
+    font-size: 2em;
+    color: #12307a;
+    justify-content: end;
+  }
 
-@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .titulo h2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+  }
 
+  .botones {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10% 0 3%;
+    gap: 5%;
+    margin: 5% 0% 2% 0;
+    background-color: #eff7f7;
+  }
+
+  .opcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 150%;
+
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0px #232323;
+
+    cursor: pointer;
+  }
+
+  .opcion img {
+    width: 9%;
+    padding: 0;
+    margin: 0;
+    margin-right: 4%;
+  }
+
+  .opcion span {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 90%;
+    color: #232323;
+    margin: 0;
+    padding: 0;
+  }
 }
-

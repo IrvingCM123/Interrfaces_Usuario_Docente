@@ -42,7 +42,7 @@
         <div class="col" *ngFor="let tarjeta of fila" style="margin-bottom: 0%">
           <div class="card mb-3 tarjeta" style="max-width: 540px">
             <div class="row g-0">
-              <div class="col-md-4" style="width: 15%">
+              <div class="col-md-4" style="width: 17%">
                 <section class="rotar_vertical" style="background-color: {{ tarjeta.color }}">
                   <p>{{ tarjeta.tipo[0] }}</p>
                   <p>{{ tarjeta.tipo[1] }}</p>
@@ -51,25 +51,25 @@
                 </section>
               </div>
               <div class="col-md-8">
-                <div class="card-body" style="width: 127%">
+                <div class="card-body TituloTarjeta">
                   <h5 class="card-title tarjeta_titulo">
                     {{ tarjeta.materia }}
                   </h5>
-                  <section style="margin: 3% 2%">
+                  <section style="margin: 0%">
                     <div class="tarjeta_contenido">
                       <section>
                         <h3>NRC</h3>
                         <p>{{ tarjeta.nrc }}</p>
                       </section>
 
-                      <div style="font-size: 190%">|</div>
+                      <div style="font-size: 150%">|</div>
 
                       <section>
                         <h3>Grupo</h3>
                         <p>{{ tarjeta.grupo }}</p>
                       </section>
 
-                      <div style="font-size: 190%">|</div>
+                      <div style="font-size: 150%">|</div>
 
                       <section>
                         <h3>Estudiantes</h3>
@@ -79,21 +79,10 @@
                   </section>
 
                   <section class="lista_asistencia">
-                    <!--
-                    <button class="boton_lista">Lista de asistencia</button>
-
-
-                    <button
-                      class="flex flex-wrap align-items-center justify-content-cente animate-width animation-duration-3000
-                      animation-iteration-infinite flex align-items-center justify-content-center font-bold bg-primary border-round m-2 px-9 py-1 boton_lista"
-                    >
-                      Lista de asistencia
-                    </button>
-                    -->
                     <div
                       class="animation-fill-forwards flex
                       align-items-center justify-content-center
-                      font-bold border-round m-2 px-7 py-1"
+                      font-bold border-round m-1px-7 py-1 boton_lista"
                       [ngClass]="'tipo-' + tarjeta.tipo"
                       (click)="lista_asistencia()"
                       >
