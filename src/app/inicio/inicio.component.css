@@ -428,10 +428,10 @@
   }
 
   .boton_lista {
-    width: 60%;
+    width: 45%;
     height: 20px;
     font-size: 60%;
-    margin: 0;
+    margin: 2% 8% 0 0;
     padding: 0;
   }
 
@@ -550,10 +550,10 @@
   }
 
   .boton_lista {
-    width: 60%;
+    width: 50%;
     height: 20px;
     font-size: 60%;
-    margin: 0;
+    margin: 2% 8% 0% 0;
     padding: 0;
   }
 
