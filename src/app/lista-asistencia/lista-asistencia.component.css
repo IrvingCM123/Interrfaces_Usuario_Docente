@@ -22,7 +22,6 @@
   border-radius: 5px;
   height: 50%;
   width: 20%;
-  font-size: 100%;
   font-family: sans-serif;
   cursor: pointer;
   display: flex;
@@ -30,6 +29,10 @@
   align-items: center;
   border-radius: 20px;
   margin-top: 2%;
+}
+
+.titulo .boton h2 {
+  font-size: 90%;
 }
 
 .titulo section h2 {
@@ -90,12 +93,152 @@ table {
   text-align: center;
 }
 
-@media only screen and (max-width: 699px) and (min-width: 400px) {
+@media only screen and (max-width: 599px) and (min-width: 400px) {
 
+  .contenedor {
+    margin: 0;
+  }
+
+  .titulo section {
+    font-size: 100%;
+    width: 100%;
+    margin: 10% 0% 0 10%;
+  }
+
+  .titulos h2 {
+    font-size: 90%;
+    min-width: 200%;
+    margin: 2% 0% 0 10%;
+  }
+
+  .boton {
+    min-width: 40%;
+    height: 30%;
+    margin-top: 2%;
+  }
+
+  .boton h2 {
+    font-size: 100%;
+  }
+
+  .tablas {
+    margin: 0 1%;
+    width: 100%;
+  }
+
+  .titulo {
+    width: 70%;
+  }
+
+  .titulo section h2 {
+    font-size: 120%;
+    margin: 2% 0;
+  }
+
+  .tablas h3 {
+    font-size: 70%;
+  }
+
+  .tablas {
+    margin: 2% 0 0 0;
+    padding: 0%;
+  }
+
+  .table thead tr th {
+    font-size: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .table tbody tr td {
+    font-size: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 2% 1%;
+  }
+
+  .table tbody th {
+    font-size: 70%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .titulo .boton h2 {
+    font-size: 70%;
+  }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
 
-@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .contenedor {
+    margin: 0;
+  }
 
+  .tablas {
+    margin: 0 1%;
+    width: 100%;
+  }
+
+  .titulo {
+    width: 70%;
+  }
+
+  .titulo section h2 {
+    font-size: 140%;
+    margin: 0;
+  }
+
+  .titulos h2 {
+    font-size: 100%;
+    min-width: 200%;
+    margin: 5% 0% 0 10%;
+  }
+
+  .tablas h3 {
+    font-size: 70%;
+  }
+
+  .tablas {
+    margin: 2% 0 0 0;
+    padding: 0%;
+  }
+
+  .table thead tr th {
+    font-size: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .table tbody tr td {
+    font-size: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 2% 1%;
+  }
+
+  .table tbody th {
+    font-size: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .boton {
+    min-width: 40%;
+    height: 30%;
+  }
+
+  .boton h2 {
+    font-size: 100%;
+  }
+
+  .titulo section {
+    font-size: 100%;
+    width: 100%;
+    margin: 10% 0% 0 10%;
+  }
 }
 

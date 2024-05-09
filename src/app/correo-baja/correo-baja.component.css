@@ -89,3 +89,111 @@
   margin-right: 10px;
 }
 
+@media only screen and (max-width: 599px) and (min-width: 400px) {
+
+  .tarjeta {
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 55% 45%;
+  }
+
+  .campos_llenar {
+    padding: 1% 4%;
+    min-height: 10%;
+  }
+
+  .Titulo {
+    font-size: 60%;
+    margin: 0 0 1% 0;
+  }
+
+  .campos_llenar input {
+    margin: 1% 0 1% 0;
+    width: 90%;
+    margin: 3% 5%;
+    font-size: 60%;
+  }
+
+  .boton {
+    width: 90%;
+    margin: 5% 5%;
+    font-size: 60%;
+  }
+
+  .informacion {
+    min-height: 10%;
+    padding: 2% 0% 0 5%;
+    border-bottom-right-radius: 10px;
+  }
+
+  .informacion h3 {
+    font-size: 60%;
+    margin: 1% 0 1% 1%;
+    padding: 0;
+    color: white;
+  }
+
+  .informacion p {
+    font-size: 60%;
+    margin: 0 0 5% 0;
+    padding: 0 1% 0 1%;
+  }
+
+  .informacion p i {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 600) and (max-width: 1000px) {
+  .tarjeta {
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 55% 45%;
+  }
+
+  .campos_llenar {
+    padding: 1% 4%;
+    min-height: 10%;
+  }
+
+  .Titulo {
+    font-size: 60%;
+    margin: 0 0 1% 0;
+  }
+
+  .campos_llenar input {
+    margin: 1% 0 1% 0;
+    width: 90%;
+    margin: 3% 5%;
+    font-size: 60%;
+  }
+
+  .boton {
+    width: 90%;
+    margin: 5% 5%;
+    font-size: 60%;
+  }
+
+  .informacion {
+    min-height: 10%;
+    padding: 2% 0% 0 5%;
+    border-bottom-right-radius: 10px;
+  }
+
+  .informacion h3 {
+    font-size: 60%;
+    margin: 1% 0 1% 1%;
+    padding: 0;
+    color: white;
+  }
+
+  .informacion p {
+    font-size: 60%;
+    margin: 0 0 5% 0;
+    padding: 0 1% 0 1%;
+  }
+
+  .informacion p i {
+    margin-right: 10px;
+  }
+}

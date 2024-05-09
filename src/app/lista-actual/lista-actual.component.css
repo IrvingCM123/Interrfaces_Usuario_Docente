@@ -16,7 +16,7 @@
 }
 
 .boton {
-  background-color: #1C9050;
+  background-color: #1c9050;
   color: white;
   border: none;
   border-radius: 5px;
@@ -35,7 +35,7 @@
 .titulo section h2 {
   font-size: 300%;
   font-weight: 400;
-  color: #12307A;
+  color: #12307a;
   font-family: sans-serif;
   margin: 2% 0% 0 0;
 }
@@ -59,7 +59,7 @@
 .tablas h3 {
   font-size: 180%;
   font-weight: 400;
-  color: #12307A;
+  color: #12307a;
   font-family: sans-serif;
   margin: 2% 0% 0 0;
 
@@ -90,12 +90,51 @@ table {
   text-align: center;
 }
 
-@media only screen and (max-width: 699px) and (min-width: 400px) {
+@media only screen and (max-width: 599px) and (min-width: 400px) {
+  .tablas {
+    margin: 0 5%;
+    width: 100%;
+  }
 
+  .titulo {
+    width: 70%;
+  }
+
+  .titulo section h2 {
+    font-size: 140%;
+    margin: 0;
+  }
+
+  .tablas h3 {
+    font-size: 70%;
+  }
+
+  .tablas {
+    margin: 2% 0 0 0;
+    padding: 0%;
+  }
+
+  .table thead tr th {
+    font-size: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .table tbody tr td {
+    font-size: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 2% 1%;
+  }
+
+  .table tbody th {
+    font-size: 70%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
 }
-
 
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
-
 }
-
