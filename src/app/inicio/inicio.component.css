@@ -330,7 +330,7 @@
 }
 
 .TituloTarjeta {
-  width: 127%
+  width: 127%;
 }
 
 .tipo-AFT {
@@ -458,6 +458,17 @@
     color: #12307a;
   }
 
+  .mensaje {
+    width: 70%;
+    height: 15%;
+    margin: 10% 0 0 1%;
+  }
+
+  .mensaje section {
+    width: 100%;
+    display: flex;
+    height: 4%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -580,4 +591,15 @@
     color: #12307a;
   }
 
+  .mensaje {
+    width: 75%;
+    height: 30%;
+    margin: 10% 0 0 1%;
+  }
+
+  .mensaje section {
+    width: 100%;
+    display: flex;
+    height: 4%;
+  }
 }

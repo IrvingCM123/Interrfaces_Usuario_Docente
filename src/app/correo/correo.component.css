@@ -1,9 +1,9 @@
-.tarjeta{
+.tarjeta {
   display: grid;
   grid-template-columns: 55% 45%;
 }
 
-.campos_llenar{
+.campos_llenar {
   display: flex;
   flex-direction: column;
   padding: 1% 9%;
@@ -14,7 +14,7 @@
   font-family: sans-serif;
   font-weight: 700;
   font-size: 115%;
-  color: #12307A;
+  color: #12307a;
   margin: 0 0 2% 0;
   padding: 0;
   word-wrap: break-word;
@@ -22,19 +22,18 @@
   text-align: center;
 }
 
-.campos_llenar input{
+.campos_llenar input {
   padding: 1% 0;
   margin: 2% 0 1% 0;
   border: 1px solid transparent;
   border-radius: 10px;
   font-family: sans-serif;
-  background-color: #CAE4E5;
+  background-color: #cae4e5;
   color: rgb(0, 0, 0);
   padding-left: 4%;
 
   font-size: 80%;
   font-weight: 600;
-
 }
 
 .boton {
@@ -48,7 +47,7 @@
   border-radius: 20px;
   border-color: transparent;
   height: 30px;
-  background-color: #12307A;
+  background-color: #12307a;
 
   color: white;
   margin-top: 15%;
@@ -56,7 +55,7 @@
 }
 
 .informacion {
-  background-color: #2B3651;
+  background-color: #2b3651;
 
   display: flex;
   flex-direction: column;
@@ -66,7 +65,6 @@
   min-height: 14.6em;
   padding: 2% 0% 0 5%;
   border-bottom-right-radius: 10px;
-
 }
 .informacion h3 {
   font-family: sans-serif;
@@ -76,7 +74,7 @@
   padding: 0;
   color: white;
 }
-.informacion p{
+.informacion p {
   font-family: sans-serif;
   font-weight: 500;
   font-size: 90%;
@@ -89,3 +87,111 @@
   margin-right: 10px;
 }
 
+@media only screen and (max-width: 599px) and (min-width: 400px) {
+
+  .tarjeta {
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 55% 45%;
+  }
+
+  .campos_llenar {
+    padding: 1% 4%;
+    min-height: 10%;
+  }
+
+  .Titulo {
+    font-size: 60%;
+    margin: 0 0 1% 0;
+  }
+
+  .campos_llenar input {
+    margin: 1% 0 1% 0;
+    width: 90%;
+    margin: 3% 5%;
+    font-size: 60%;
+  }
+
+  .boton {
+    width: 90%;
+    margin: 5% 5%;
+    font-size: 60%;
+  }
+
+  .informacion {
+    min-height: 10%;
+    padding: 2% 0% 0 5%;
+    border-bottom-right-radius: 10px;
+  }
+
+  .informacion h3 {
+    font-size: 60%;
+    margin: 1% 0 1% 1%;
+    padding: 0;
+    color: white;
+  }
+
+  .informacion p {
+    font-size: 60%;
+    margin: 0 0 5% 0;
+    padding: 0 1% 0 1%;
+  }
+
+  .informacion p i {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 600) and (max-width: 1000px) {
+  .tarjeta {
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 55% 45%;
+  }
+
+  .campos_llenar {
+    padding: 1% 4%;
+    min-height: 10%;
+  }
+
+  .Titulo {
+    font-size: 60%;
+    margin: 0 0 1% 0;
+  }
+
+  .campos_llenar input {
+    margin: 1% 0 1% 0;
+    width: 90%;
+    margin: 3% 5%;
+    font-size: 60%;
+  }
+
+  .boton {
+    width: 90%;
+    margin: 5% 5%;
+    font-size: 60%;
+  }
+
+  .informacion {
+    min-height: 10%;
+    padding: 2% 0% 0 5%;
+    border-bottom-right-radius: 10px;
+  }
+
+  .informacion h3 {
+    font-size: 60%;
+    margin: 1% 0 1% 1%;
+    padding: 0;
+    color: white;
+  }
+
+  .informacion p {
+    font-size: 60%;
+    margin: 0 0 5% 0;
+    padding: 0 1% 0 1%;
+  }
+
+  .informacion p i {
+    margin-right: 10px;
+  }
+}
