@@ -24,7 +24,6 @@
   padding: 0 30% 0 3%;
   gap: 5%;
   margin: 5% 0% 2% 0;
-  z-index: 1000;
   background-color: #EFF7F7;
 }
 
@@ -339,16 +338,12 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 699px) and (min-width: 400px) {
 
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Estilos para tamaños de pantalla medianos (por ejemplo, tabletas) */
-}
 
-@media only screen and (min-width: 1025px) {
-  /* Estilos para pantallas más grandes (por ejemplo, escritorios) */
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+
 }
 

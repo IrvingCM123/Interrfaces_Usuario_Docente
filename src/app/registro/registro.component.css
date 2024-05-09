@@ -148,5 +148,209 @@
   font-weight: 500;
   border-color: transparent;
   cursor: pointer;
-  margin: 6% 0 0 0;
+  margin: 30% 0 0 0;
 }
+
+.img-preview {
+  width: 100%;
+  height: auto;
+  max-height: 190px;
+  margin-top: 35%;
+  margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
+  .contenedor_formulario-formato h3 {
+    color: #12307A;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 12% 0 12% 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .contenedor_formulario-formato input {
+    width: 75%;
+    height: 5%;
+    margin: 2% 0 8% 0;
+    background-color: #bcefef;
+    border-radius: 10px;
+    border: 1px solid #7d8087;
+    background-color: #bcefef;
+  }
+
+  .contenedor_formulario-boton {
+    width: 75%;
+    height: 4%;
+    background-color: #12307A;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-color: transparent;
+    cursor: pointer;
+    margin: 6% 0 0 0;
+  }
+
+  .contenedor_logo img {
+    width: 42%;
+    height: 40%;
+    margin: 0 0 2.3rem 0;
+    padding: 0;
+  }
+
+  .contenedor {
+    height: 97vh;
+    background-image: url("../../assets/Login1.jpg");
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+  }
+
+  .contenedor_formulario-imagenboton-div {
+    width: 70%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #0A5755;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    margin: -2% 0 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor_formulario-boton {
+    width: 75%;
+    height: 6%;
+    background-color: #12307A;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-color: transparent;
+    cursor: pointer;
+    margin: 45% 0 0 0;
+  }
+
+  .img-preview {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    margin-top: 50%;
+    margin-bottom: 0%;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 699px) and (min-width: 400px) {
+  .contenedor_formulario-formato h3 {
+    color: #12307A;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 12% 0 12% 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .contenedor_formulario-formato input {
+    width: 75%;
+    height: 4%;
+    margin: 1% 0 15% 0;
+    background-color: #bcefef;
+    border-radius: 10px;
+    border: 1px solid #7d8087;
+    background-color: #bcefef;
+  }
+
+  .contenedor_formulario-boton {
+    width: 75%;
+    height: 4%;
+    background-color: #12307A;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-color: transparent;
+    cursor: pointer;
+    margin: 6% 0 0 0;
+  }
+
+  .contenedor_logo img {
+    width: 82%;
+    height: 40%;
+    margin: 0 0 2.3rem 0;
+    padding: 0;
+  }
+
+  .contenedor {
+    height: 97vh;
+    background-image: url("../../assets/Login1.jpg");
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+  }
+
+  .contenedor_logo-titulo {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .contenedor_formulario-imagenboton-div {
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: #0A5755;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    margin: -2% 0 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor_formulario-boton {
+    width: 75%;
+    height: 4%;
+    background-color: #12307A;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-color: transparent;
+    cursor: pointer;
+    margin: 45% 0 0 0;
+  }
+
+  .img-preview {
+    width: 50%;
+    height: auto;
+    max-height: 150px;
+    margin-top: 30%;
+    margin-bottom: 0%;
+  }
+
+}
+
