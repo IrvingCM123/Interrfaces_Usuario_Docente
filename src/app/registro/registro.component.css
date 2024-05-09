@@ -253,7 +253,7 @@
 }
 
 
-@media only screen and (max-width: 699px) and (min-width: 400px) {
+@media only screen and (max-width: 699px) and (min-width: 300px) {
   .contenedor_formulario-formato h3 {
     color: #12307A;
     font-size: 1.4rem;
