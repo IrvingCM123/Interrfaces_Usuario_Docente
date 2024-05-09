@@ -460,9 +460,9 @@
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
   .titulo {
-    font-size: 2em;
+    font-size: 1.2em;
     color: #12307a;
     justify-content: end;
   }
@@ -485,33 +485,99 @@
   }
 
   .opcion {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     width: 95%;
     height: 150%;
-
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0px 0px 5px 0px #232323;
-
-    cursor: pointer;
   }
 
   .opcion img {
     width: 9%;
-    padding: 0;
-    margin: 0;
-    margin-right: 4%;
   }
 
   .opcion span {
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 90%;
-    color: #232323;
+    font-size: 60%;
+  }
+
+  .materias-tarjetas {
+    display: flex;
+    padding: 1% 0%;
+    margin-top: 5%;
+    max-height: max-content;
+  }
+
+  .tarjeta {
+    border-radius: 25px;
+    width: 40%;
+    height: 87%;
+    min-width: 370px;
+  }
+
+  .tarjeta_titulo {
+    font-size: 80%;
+    margin: 0;
+  }
+
+  .tarjeta_contenido section h3 {
+    font-size: 60%;
     margin: 0;
     padding: 0;
   }
+
+  .tarjeta_contenido section p {
+    font-size: 60%;
+  }
+
+  .TituloTarjeta {
+    margin-top: -28%;
+    margin-left: -2%;
+    height: fit-content;
+    padding: 0;
+  }
+
+  .rotar_vertical {
+    font-size: 150%;
+    width: 10%;
+    height: 99%;
+    padding: 0% 55%;
+  }
+
+  .rotar_vertical p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tarjeta_titulo {
+    margin-left: 18%;
+  }
+
+  .boton_lista {
+    width: 60%;
+    height: 20px;
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tarjeta_contenido section {
+    gap: 0%;
+    padding-top: 3%;
+  }
+
+  .tarjeta_contenido section h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+    color: #232323;
+  }
+
+  .tarjeta_contenido section p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 60%;
+    margin: 0;
+    padding: 0;
+    color: #12307a;
+  }
+
 }
