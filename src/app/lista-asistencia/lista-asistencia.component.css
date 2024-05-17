@@ -43,6 +43,20 @@
   margin: 2% 0% 0 0;
 }
 
+.titulos {
+  width: 100%;
+  margin-left: 30%;
+}
+
+.titulo section p {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: 400;
+  color: #12307a;
+  font-family: sans-serif;
+}
+
 .tablas {
   grid-area: tabla;
   background-color: white;
@@ -99,10 +113,25 @@ table {
     margin: 0;
   }
 
+  .titulo section p {
+    font-size: 80%;
+  }
+
   .titulo section {
     font-size: 100%;
     width: 100%;
     margin: 10% 0% 0 10%;
+  }
+
+  .titulo {
+    min-width: 78vw;
+    justify-content: start;
+  }
+
+  .titulos {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C9050;
   }
 
   .titulos h2 {
@@ -124,10 +153,6 @@ table {
   .tablas {
     margin: 0 1%;
     width: 100%;
-  }
-
-  .titulo {
-    width: 70%;
   }
 
   .titulo section h2 {
@@ -188,6 +213,14 @@ table {
   .titulo section h2 {
     font-size: 140%;
     margin: 0;
+  }
+
+  .titulos {
+    min-width: 90%;
+  }
+
+  .titulo section p {
+    font-size: 80%;
   }
 
   .titulos h2 {

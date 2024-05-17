@@ -18,7 +18,12 @@ export class ListaAsistenciaComponent implements OnInit {
     { nombre: "Jane", asistencias: "30", inasistencias : "10", matricula: "zS20005678", carrera: "Electrical Engineering", status: "Presente" },
     { nombre: "Mike", asistencias: "40", inasistencias : "10", matricula: "zS20009876", carrera: "Mechanical Engineering", status: "Presente" },
     { nombre: "Samantha", asistencias: "50", inasistencias : "10", matricula: "zS20004567", carrera: "Industrial Engineering", status: "Presente"},
-
   ]
+
+  materia = {
+    nombre: "Desarrollo de aplicaciones web",
+    clave: "827194",
+    horario: "Lunes-Miercoles.Viernes 10:00 - 12:00",
+  }
 
 }

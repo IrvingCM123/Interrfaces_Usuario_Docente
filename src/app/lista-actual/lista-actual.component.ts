@@ -12,6 +12,12 @@ export class ListaActualComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  materia = {
+    nombre: "Desarrollo de aplicaciones web",
+    clave: "827194",
+    horario: "Lunes-Miercoles.Viernes 10:00 - 12:00",
+  }
+
   lista_asistencia = [
     { nombre: "Irving", matricula: "zS20006735", carrera: "Ingeniera de software", status: "Presente"},
     { nombre: "John", matricula: "zS20001234", carrera: "Computer Science", status: "Presente" },
